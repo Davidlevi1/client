@@ -1,0 +1,26 @@
+/* src/components/RegisterForm.css */
+.register-card {
+    width: 20%; /* Set width to 20% of the screen */
+    margin: auto; /* Center the card horizontally */
+    margin-top: 10vh;
+  }
+  
+  .register-card .card-title {
+    text-align: center; /* Center the title */
+  }
+  
+  .register-card form {
+    padding: 20px; /* Add padding inside the card body */
+  }
+  
+  .register-card input[type="text"],
+  .register-card input[type="email"],
+  .register-card input[type="password"] {
+    border-radius: 10px; /* Add border radius for text inputs */
+    margin-bottom: 10px; /* Add margin between inputs */
+  }
+  
+  .register-card button[type="submit"] {
+    width: 100%; /* Set button width to 100% */
+  }
+  
