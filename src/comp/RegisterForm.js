@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Form, Button, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import './RegisterForm.css';  
+import './RegisterForm.css';
 
 const RegisterForm = () => {
   const [formData, setFormData] = useState({
@@ -47,42 +47,40 @@ const RegisterForm = () => {
           <Card.Title>Register</Card.Title>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="formBasicUsername">
-              <Form.Label>Username</Form.Label>
+              <Form.Label></Form.Label>
               <Form.Control type="text" placeholder="Enter username" name="userName" value={formData.userName} onChange={handleChange} />
             </Form.Group>
 
             <Form.Group controlId="formBasicPassword">
-              <Form.Label>Password</Form.Label>
+              <Form.Label></Form.Label>
               <Form.Control type="password" placeholder="Password" name="password" value={formData.password} onChange={handleChange} />
             </Form.Group>
 
             <Form.Group controlId="formBasicName">
-              <Form.Label>Name</Form.Label>
+              <Form.Label></Form.Label>
               <Form.Control type="text" placeholder="Enter name" name="name" value={formData.name} onChange={handleChange} />
             </Form.Group>
 
             <Form.Group controlId="formBasicLastName">
-              <Form.Label>Last Name</Form.Label>
+              <Form.Label></Form.Label>
               <Form.Control type="text" placeholder="Enter last name" name="lastName" value={formData.lastName} onChange={handleChange} />
             </Form.Group>
 
             <Form.Group controlId="formBasicAddress">
-              <Form.Label>Address</Form.Label>
+              <Form.Label></Form.Label>
               <Form.Control type="text" placeholder="Enter address" name="address" value={formData.address} onChange={handleChange} />
             </Form.Group>
 
             <Form.Group controlId="formBasicCellNum">
-              <Form.Label>Cell Phone Number</Form.Label>
+              <Form.Label></Form.Label>
               <Form.Control type="text" placeholder="Enter cell phone number" name="cellNum" value={formData.cellNum} onChange={handleChange} />
             </Form.Group>
 
             <Form.Group controlId="formBasicMailAddress">
-              <Form.Label>Email address</Form.Label>
+              <Form.Label></Form.Label>
               <Form.Control type="email" placeholder="Enter email" name="mailAddress" value={formData.mailAddress} onChange={handleChange} />
             </Form.Group>
-
-           
-
+       
             <Button variant="primary" type="submit">
               Register
             </Button>

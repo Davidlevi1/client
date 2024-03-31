@@ -40,12 +40,12 @@ const LoginForm = () => {
           <Card.Title>Welcome</Card.Title>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="formBasicUsername">
-              <Form.Label>Username</Form.Label>
+              <Form.Label></Form.Label>
               <Form.Control type="text" placeholder="Enter username" name="userName" value={formData.userName} onChange={handleChange} />
             </Form.Group>
 
             <Form.Group controlId="formBasicPassword">
-              <Form.Label>Password</Form.Label>
+              <Form.Label></Form.Label>
               <Form.Control type="password" placeholder="Password" name="password" value={formData.password} onChange={handleChange} />
             </Form.Group>
            

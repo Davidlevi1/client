@@ -1,0 +1,64 @@
+.central-page {
+    background-color: lightcyan; /* Light turquoise background */
+    height: 100vh; /* Full height */
+    width: 80%;
+    padding: 20px;
+  }
+  
+  .fixed-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #812a786e; /* Sidebar background color */
+    height: 100vh; /* Full height */
+    width: 20%; /* Adjust width as needed */
+    padding: 20px;
+    border-left: 1px solid #ced4da; /* Border color */
+  }
+  
+  /* Adjust styles as needed */
+  .fixed-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .fixed-sidebar ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .fixed-sidebar ul li:hover {
+    color: #007bff; /* Hover color */
+  }
+  
+  .login-button {
+    background-color: #603484c7;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none; /* No border */
+    border-radius: 5px;  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+
+  .search-form {
+    margin-top: 20px;
+  }
+  
+  .search-form .form-control {
+    border-radius: 0;
+  }
+  
+  .search-form .btn {
+    border-radius: 0;
+  }
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+    
+  
